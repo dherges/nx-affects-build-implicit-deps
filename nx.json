@@ -9,9 +9,13 @@
   },
   "projects": {
     "foobar": {
-      "tags": []
+      "tags": [],
+      "implicitDependencies": ["shared"]
     },
     "foobar-e2e": {
+      "tags": []
+    },
+    "shared": {
       "tags": []
     }
   }

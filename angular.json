@@ -117,6 +117,23 @@
           }
         }
       }
+    },
+    "shared": {
+      "root": "libs/shared",
+      "sourceRoot": "libs/shared/src",
+      "projectType": "library",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/builders:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "echo Built shared libary"
+              }
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {
