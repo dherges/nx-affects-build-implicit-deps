@@ -1,0 +1,18 @@
+{
+  "npmScope": "foobar",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "foobar": {
+      "tags": []
+    },
+    "foobar-e2e": {
+      "tags": []
+    }
+  }
+}
